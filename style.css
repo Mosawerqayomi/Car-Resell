@@ -60,22 +60,38 @@
 } 
 
 iframe {
-  position: absolute;
+  /* position: absolute;
   top: 110%;
-  right: 2%;
-  width: 250px;
-  height: 250px;
-  margin-top: -400px;
+  right: 2%; */
+  width: 100%;
+  height: 200px;
+  /* margin-top: -400px;
   margin-right: 20px;
-  z-index: 999;
+  z-index: 999; */
 }
-.cars {
-  position: absolute;
-  top: 110%;
-  right: 2%;
-  width: 250px;
-  height: 250px;
-  margin-top: -400px;
-  margin-right: 20px;
-  z-index: 999;
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.grid {
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
+  
+  gap: 10px;
+  background-color: #2195f300;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(121, 251, 251, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+}
+.car img{
+  height: auto;
+  width: 100%;
+}
+.car {
+  max-width: 300px;
 }
