@@ -95,3 +95,7 @@ iframe {
 .car {
   max-width: 300px;
 }
+
+.auto-card h2 {
+  color: red
+}
